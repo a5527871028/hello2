@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/et_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FBFBFB"
+        android:ems="10"
+        android:hint="身高"
+        android:inputType="numberDecimal"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="#00B8D4"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/et_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="體重"
+        android:inputType="numberDecimal"
+        android:textColor="#00B8D4"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/bt_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0B0B0B"
+        android:text="計算"
+        android:textColor="#CC1616"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_bmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="結果顯示"
+        android:textColor="#311B92"
+        android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/ib_next"
+        android:layout_width="match_parent"
+        android:layout_height="199dp"
+        android:background="#FFFFFF"
+        android:baselineAligned="false"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/_j8gfccgm2b8_yjg3xbds4_5rab3k_nxh2a4godmubo" />
+
+</LinearLayout>
